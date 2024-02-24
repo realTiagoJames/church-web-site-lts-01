@@ -1,0 +1,49 @@
+.bi{
+  padding-right: 5px;
+}
+.nav-item{
+  color: #636363;
+  font-size: 14px;
+  font-family: roboto,Arial,Helvetica,sans-serif;
+  cursor: pointer;
+}
+.nav-item:hover{
+  color: black;
+}
+
+.icon-nav-social{
+  color: #636363;
+  padding: 0px 3px;
+}
+
+.link-faleConosco{
+ color: #636363;
+}
+.link-faleConosco:hover{
+  color: black;
+}
+
+.navbar{
+ background-color: rgb(238,238,238);
+ height: 50px;
+ padding-top: 13px;
+}
+
+.vr{
+  height: 20px;
+}
+
+.navbar-toggler{
+  border: none;
+  font-size: 13px;
+  font-family: 'Gruppo', sans-serif;
+  font-weight: 900;
+  text-decoration: NONE;
+  cursor: pointer;
+  padding-top: 4px;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

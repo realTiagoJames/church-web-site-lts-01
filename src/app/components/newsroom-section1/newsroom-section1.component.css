@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+body{
+  margin: 0;
+  /* margin-top: 700px; */
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cont-div{
+  width: 100%;
+  position: relative;
+}
+.cont-div::after{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  z-index: -1;
+  bottom: 0;
+  content: '';
+
+}
+
+#skw1{
+  background: url(src\assets\Banner5_Generic.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  z-index: 10;
+}
+#skw3{
+  background: #c2c2c2;
+  z-index: 8;
+}
+
+#skw1:after,
+#skw3:after{
+  transform-origin: left bottom;
+  transform: skewY(3deg);
+}
+
+
+#skw2{
+  background: #fff;
+  z-index: 9;
+}
+
+#skw2:after{
+  transform-origin: right bottom;
+  transform: skewY(-3deg);
+}
+
+.content{
+  font-weight: bold;
+  text-align:center;
+  padding: 200px 50px;
+  overflow: hidden;
+  display: block;
+  height: auto;
+}
+
+
+.content h2{
+  margin: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+}
+
+.content a {
+  text-decoration: none;
+  color: #fff;
+  background: #039dc8;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 25px;
+}
+.content h3 {
+  margin: 0;
+  color: #262626;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+.content p {
+  color: #000;
+  padding: 0 300px;
+  line-height: 1.5;
+}

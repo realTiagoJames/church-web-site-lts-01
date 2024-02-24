@@ -1,0 +1,90 @@
+.navbar{
+  height: 8%;
+  z-index: 8;
+  width: 100%;
+  padding: 15px 0 15px 0;
+}
+
+
+/* .navbar-brand{
+  width: 30px;
+} */
+
+.logo-faith-church{
+  width: 130px;
+}
+
+
+/* ============== Fazer o Botão Piscar na cor vermelha ========== */
+@keyframes blinking {
+  0% {
+    background-color: rgb(244, 140, 140);
+    color: white
+  }
+  50% {
+    background-color: red;
+    color: white
+  }
+  100% {
+    background-color: rgb(221, 30, 30);
+    color: white
+  }
+}
+
+.blinking-button {
+  animation: blinking 2s infinite; /* Ajuste a duração conforme necessário */
+}
+/* ============================================================================== */
+
+@media only screen and (min-width: 768px) and (max-width: 866px) {
+  .navbar {
+      width: 100%;
+      font-size: 13px;
+  }
+}
+
+.dropdown-menu-dark {
+  border: none;
+  border-radius: 0%;
+  box-shadow: none;
+  /* background-color: black; */
+  color: aqua;
+}
+
+
+
+/* Cor do texto nos items do dropdown ao passar o mouse */
+.navbar-dark .navbar-nav .nav-item.dropdown .dropdown-menu a:hover,
+.navbar-dark .navbar-nav .nav-item.dropdown .dropdown-menu a:focus {
+  color: rgb(0, 234, 255); /* Escolha a cor desejada para o texto do dropdown-item ao passar o mouse */
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(0, 234, 255); /* Opcional: altera a cor do texto ao passar o mouse */
+}
+
+.nav-link:hover::after {
+  transition: all 0.2s;
+  opacity: 1;
+  height: 2px;
+ }
+
+/* .nav-lik{
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  opacity: 0;
+  transition: all 0.2s;
+  height: 2px;
+  width: 100%;
+  background-color: aqua;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.nav-link:hover::after {
+ opacity: 1;
+} */

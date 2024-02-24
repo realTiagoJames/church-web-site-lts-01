@@ -1,0 +1,34 @@
+body {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 75px;
+  background: linear-gradient(to right,
+        #8A2BE2 10%,  /* Lilás */
+        #8A2BE2 10%,  /* Lilás */
+        #F8F8FF 30%,  /* Branco Gelo */
+        #F8F8FF 30%,  /* Branco Gelo */
+        #C0C0C0 50%,  /* Prata */
+        #C0C0C0 50%,  /* Prata */
+        #FFD700 70%,  /* Ouro */
+        #FFD700 70%   /* Ouro */
+    );
+  /* border-bottom: #FFD700;
+  border: solid; */
+}
+
+.card{
+  box-shadow: 0 0 5px 0 rgba(22, 22, 26, .25);
+}
+
+.card-img-top{
+  max-height: 400px;
+  max-width: 420px;
+}
+.card-text{
+  text-align: justify;
+}
+
+#card-editores-2 {
+  margin-bottom: 0px;
+  padding-bottom: 60px;
+}

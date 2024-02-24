@@ -1,0 +1,78 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Forum&family=Hedvig+Letters+Serif:opsz@12..24&family=Lora&display=swap');
+
+
+.container{
+  max-width: 800px;
+}
+
+.bg-135{
+  background-color: #EEEEEE;
+  padding-top: 290px;
+  padding-bottom: 290px;
+}
+
+.titulo78{
+  font-size: 80px;
+  font-weight: lighter;
+  font-family: 'Forum', serif;
+
+}
+
+.accordion-body{
+  font-family:'Forum', serif;
+}
+
+:root {
+  --accordion-bg: #f8f9fa; /* Cor de fundo do accordion */
+  --accordion-color: #343a40; /* Cor do texto do accordion */
+  --accordion-link-color: #007bff; /* Cor do link do accordion */
+  --accordion-link-hover-color: #0056b3; /* Cor do link do accordion quando hover */
+  --accordion-border-color: rgba(0, 0, 0, 0.125); /* Cor da borda do accordion */
+  --accordion-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Sombra do accordion */
+  --accordion-border-radius: 0.25rem; /* Raio da borda do accordion */
+
+
+}
+
+.accordion-item {
+  background-color: var(--accordion-bg);
+  color: var(--accordion-color);
+  border: 1px solid black;
+  border-radius: var(--accordion-border-radius);
+  margin-bottom: 1px; /* Adiciona uma pequena margem entre os itens do accordion */
+}
+
+.accordion-button {
+  background-color: var(--accordion-bg);
+  color: var(--accordion-color);
+  font-weight: bolder;
+  border: 1px solid var(--accordion-border-color);
+  border-radius: var(--accordion-border-radius);
+  font-family: 'Forum', serif;
+  font-size: 22px;
+}
+
+.accordion-button:focus {
+  box-shadow: none /* Adiciona um destaque ao focar no botão do accordion */
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--accordion-link-color);
+  color: black; /* Altera a cor do texto quando o accordion está expandido */
+}
+
+.accordion-button:not(.collapsed):hover {
+  background-color: var(--accordion-link-hover-color);
+}
+
+.link-clique1{
+  color: #00BFFF;
+  font-weight: 900;
+}
+
+@media (max-width: 576px) {
+  .titulo78{
+    font-size: 50px;
+  }
+}

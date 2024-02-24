@@ -1,0 +1,5 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Lora&display=swap');
+/* styles.css ou outro arquivo principal de estilo */
+@import "~bootstrap/dist/css/bootstrap.min.css";

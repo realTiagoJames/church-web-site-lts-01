@@ -1,0 +1,736 @@
+
+/* xs */
+@media (max-width: 319.98px) {
+  .email-newsletter {
+    background-color: #1a1a1a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 0px;
+  }
+  .container {
+    /* background-color: rgb(69, 102, 17); */
+  }
+
+  .titulo-5556 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    font-weight: normal;
+    color: #ffffff;
+  }
+  .titulo-5588 {
+    font-size: 32px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    color: #ffffff;
+  }
+
+  .fomulário-email {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .custom-input {
+    margin-bottom: 10px; /* Adapte conforme necessário para espaçamento menor */
+
+  }
+
+  .custom-input input:focus {
+    border: none;
+    border-color: #FFD700;
+  }
+
+  .custom-input input::placeholder {
+    padding-left: 10px; /* Ajuste o valor conforme necessário */
+    margin: 0; /* Pode ajustar conforme necessário */
+    color: #661; /* Cor do placeholder */
+  }
+
+  .custom-input input{
+    margin-top: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: auto;
+    height: 54px;
+    border: none;
+    border-radius: 0;
+  }
+  .custom-input button {
+    margin-top: 25px; /* Adapte conforme necessário para espaçamento menor */
+    margin-left: 0px;
+  }
+
+  .custom-button {
+    background-color: black;
+    border: none;
+    color: #ffffff;
+    border-radius: 0%;
+    width: 150px;
+    height: 54px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .custom-button:hover {
+    background-color: #C0C0C0;
+    color: #ffffff;
+  }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 374.98px) {
+
+  .email-newsletter {
+    background-color: #1a1a1a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 0px;
+  }
+  .container {
+    /* background-color: rgb(69, 102, 17); */
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .titulo-5556 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    font-weight: normal;
+    color: #ffffff;
+  }
+  .titulo-5588 {
+    font-size: 32px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    color: #ffffff;
+  }
+
+  .fomulário-email {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .custom-input {
+    margin-bottom: 10px; /* Adapte conforme necessário para espaçamento menor */
+
+  }
+
+  .custom-input input{
+    margin-top: 25px;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: auto;
+    height: 54px;
+    border: none;
+    border-radius: 0;
+  }
+  .custom-input input::placeholder {
+    padding-left: 10px; /* Ajuste o valor conforme necessário */
+    margin: 0; /* Pode ajustar conforme necessário */
+    color: #661; /* Cor do placeholder */
+  }
+
+  .custom-input button {
+    margin-top: 25px; /* Adapte conforme necessário para espaçamento menor */
+    margin-left: 0px;
+  }
+
+  .custom-button {
+    background-color: black;
+    border: none;
+    color: #ffffff;
+    border-radius: 0%;
+    width: 150px;
+    height: 54px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .custom-button:hover {
+    background-color: #C0C0C0;
+    color: #ffffff;
+  }
+
+
+
+}
+
+@media (min-width: 375px) and (max-width: 424.98px) {
+
+  .email-newsletter {
+    background-color: #1a1a1a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 0px;
+  }
+  .container {
+    /* background-color: rgb(69, 102, 17); */
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .titulo-5556 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    font-weight: normal;
+    color: #ffffff;
+  }
+  .titulo-5588 {
+    font-size: 32px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    color: #ffffff;
+  }
+
+  .fomulário-email {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .custom-input {
+    margin-bottom: 10px; /* Adapte conforme necessário para espaçamento menor */
+
+  }
+
+  .custom-input input{
+    margin-top: 25px;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: auto;
+    height: 54px;
+    border: none;
+    border-radius: 0;
+  }
+
+  .custom-input input::placeholder {
+    padding-left: 10px; /* Ajuste o valor conforme necessário */
+    margin: 0; /* Pode ajustar conforme necessário */
+    color: #661; /* Cor do placeholder */
+  }
+
+  .custom-input button {
+    margin-top: 25px; /* Adapte conforme necessário para espaçamento menor */
+    margin-left: 0px;
+  }
+
+  .custom-button {
+    background-color: black;
+    border: none;
+    color: #ffffff;
+    border-radius: 0%;
+    width: 150px;
+    height: 54px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .custom-button:hover {
+    background-color: #C0C0C0;
+    color: #ffffff;
+  }
+
+
+
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+
+  .email-newsletter {
+    background-color: #1a1a1a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 0px;
+  }
+  .container {
+    /* background-color: rgb(69, 102, 17); */
+    padding-left: 30px;
+    padding-right: 35px;
+  }
+  .titulo-5556 {
+    font-size: 20px;
+    padding-bottom: 10px;
+
+    margin-left: 0px;
+    font-weight: normal;
+    color: #ffffff;
+  }
+  .titulo-5588 {
+    font-size: 32px;
+    padding-bottom: 30px;
+    margin-left: 0px;
+    color: #ffffff;
+  }
+
+  .fomulário-email {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .custom-input {
+    margin-bottom: 10px; /* Adapte conforme necessário para espaçamento menor */
+
+  }
+
+  .custom-input input{
+    margin-top: 25px;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: auto;
+    height: 54px;
+    border: none;
+    border-radius: 0;
+  }
+
+  .custom-input input::placeholder {
+    padding-left: 10px; /* Ajuste o valor conforme necessário */
+    margin: 0; /* Pode ajustar conforme necessário */
+    color: #661; /* Cor do placeholder */
+  }
+
+  .custom-input button {
+    margin-top: 25px; /* Adapte conforme necessário para espaçamento menor */
+    margin-left: 0px;
+  }
+
+  .custom-button {
+    background-color: black;
+    border: none;
+    color: #ffffff;
+    border-radius: 0%;
+    width: 150px;
+    height: 54px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .custom-button:hover {
+    background-color: #C0C0C0;
+    color: #ffffff;
+  }
+
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .email-newsletter {
+    background-color: #1a1a1a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 0px;
+  }
+  .container {
+    /* background-color: rgb(69, 102, 17); */
+    padding-left: 40px;
+    padding-right: 55px;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .titulo-5556 {
+    font-size: 20px;
+    padding-bottom: 10px;
+
+    margin-left: 0px;
+    font-weight: normal;
+    color: #ffffff;
+  }
+  .titulo-5588 {
+    font-size: 32px;
+    padding-bottom: 30px;
+    margin-left: 0px;
+    color: #ffffff;
+  }
+
+  .fomulário-email {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .custom-input {
+    margin-bottom: 10px; /* Adapte conforme necessário para espaçamento menor */
+
+  }
+
+  .custom-input input{
+    margin-top: 25px;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: auto;
+    height: 54px;
+    border: none;
+    border-radius: 0;
+  }
+
+  .custom-input input::placeholder {
+    padding-left: 10px; /* Ajuste o valor conforme necessário */
+    margin: 0; /* Pode ajustar conforme necessário */
+    color: #661; /* Cor do placeholder */
+  }
+
+  .custom-input button {
+    margin-top: 0px; /* Adapte conforme necessário para espaçamento menor */
+    margin-left: 0px;
+  }
+
+  .custom-button {
+    background-color: black;
+    border: none;
+    color: #ffffff;
+    border-radius: 0%;
+    width: 150px;
+    height: 54px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+  }
+
+  .custom-button:hover {
+    background-color: #C0C0C0;
+    color: #ffffff;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024.98px) {
+  .email-newsletter {
+    background-color: #1a1a1a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 0px;
+  }
+
+  .container {
+    /* background-color: rgb(69, 102, 17); */
+    padding-left: 100px;
+    padding-right: 55px;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .titulo-5556 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    font-weight: normal;
+    color: #ffffff;
+  }
+
+  .titulo-5588 {
+    font-size: 32px;
+    padding-bottom: 30px;
+    margin-left: 0px;
+    color: #ffffff;
+  }
+
+  .fomulário-email {
+    width: 100%; /* Define a largura máxima para 100% */
+  }
+
+  .custom-input {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens flexíveis quebrem para a próxima linha */
+    gap: 20px;
+  }
+
+  .custom-input input {
+    min-width: 0;
+    height: 54px;
+    border: none;
+    border-radius: 0;
+    margin-right: 20px; /* Adiciona um espaçamento entre os inputs */
+  }
+
+  .custom-input input:last-child {
+    margin-right: 0; /* Remove o espaçamento à direita do último input */
+  }
+
+  .custom-input input::placeholder {
+    padding-left: 10px;
+    margin: 0;
+    color: #661;
+  }
+
+  .custom-input button {
+    /* Você pode adicionar estilos adicionais para o botão se necessário */
+  }
+
+  .custom-button {
+    background-color: black;
+    border: none;
+    color: #ffffff;
+    border-radius: 0%;
+    width: 150px;
+    height: 54px;
+    font-weight: bold;
+  }
+
+  .custom-button:hover {
+    background-color: #C0C0C0;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1199.98px) {
+  .email-newsletter {
+    background-color: #1a1a1a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 0px;
+  }
+
+  .container {
+    padding-left: 100px;
+    /* background-color: rgb(69, 102, 17); */
+    padding-right: 0px;
+    max-width: auto;
+    margin-left: 0;
+    margin-right: 150px;
+  }
+
+  .titulo-5556 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    font-weight: normal;
+    color: #ffffff;
+  }
+
+  .titulo-5588 {
+    font-size: 32px;
+    padding-bottom: 30px;
+    margin-left: 0px;
+    color: #ffffff;
+  }
+
+  .fomulário-email {
+    width: 100%; /* Define a largura máxima para 100% */
+  }
+
+  .custom-input {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens flexíveis quebrem para a próxima linha */
+    gap: 20px;
+  }
+
+  .custom-input input {
+    min-width: 0;
+    height: 54px;
+    border: none;
+    border-radius: 0;
+    margin-right: 20px; /* Adiciona um espaçamento entre os inputs */
+  }
+
+  .custom-input input:last-child {
+    width: 300px;
+    margin-right: 0; /* Remove o espaçamento à direita do último input */
+  }
+
+  .custom-input input::placeholder {
+    padding-left: 10px;
+    margin: 0;
+    color: #661;
+  }
+
+  .custom-input button {
+    /* Você pode adicionar estilos adicionais para o botão se necessário */
+  }
+
+  .custom-button {
+    background-color: black;
+    border: none;
+    color: #ffffff;
+    border-radius: 0%;
+    width: 150px;
+    height: 54px;
+    font-weight: bold;
+  }
+
+  .custom-button:hover {
+    background-color: #C0C0C0;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1439.98px) {
+  .email-newsletter {
+    background-color: #1a1a1a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 0px;
+  }
+
+  .container {
+    padding-left: 200px;
+    /* background-color: rgb(69, 102, 17); */
+    padding-right: 0px;
+    max-width: auto;
+    margin-left: 0;
+    margin-right: 150px;
+  }
+
+  .titulo-5556 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    font-weight: normal;
+    color: #ffffff;
+  }
+
+  .titulo-5588 {
+    font-size: 32px;
+    padding-bottom: 30px;
+    margin-left: 0px;
+    color: #ffffff;
+  }
+
+  .fomulário-email {
+    width: 100%; /* Define a largura máxima para 100% */
+  }
+
+  .custom-input {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens flexíveis quebrem para a próxima linha */
+    gap: 20px;
+  }
+
+  .custom-input input {
+    min-width: 0;
+    height: 54px;
+    border: none;
+    border-radius: 0;
+    margin-right: 20px; /* Adiciona um espaçamento entre os inputs */
+  }
+
+  .custom-input input:last-child {
+    width: 350px;
+    margin-right: 0; /* Remove o espaçamento à direita do último input */
+  }
+
+  .custom-input input::placeholder {
+    padding-left: 10px;
+    margin: 0;
+    color: #661;
+  }
+
+  .custom-input button {
+    /* Você pode adicionar estilos adicionais para o botão se necessário */
+  }
+
+  .custom-button {
+    background-color: black;
+    border: none;
+    color: #ffffff;
+    border-radius: 0%;
+    width: 150px;
+    height: 54px;
+    font-weight: bold;
+  }
+
+  .custom-button:hover {
+    background-color: #C0C0C0;
+    color: #ffffff;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+  .email-newsletter {
+    background-color: #1a1a1a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 0px;
+  }
+
+  .container {
+    /* background-color: rgb(69, 102, 17); */
+    max-width: 1200px;
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .titulo-5556 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    font-weight: lighter;
+    color: #ffffff;
+  }
+
+  .titulo-5588 {
+    font-size: 60px;
+    padding-bottom: 30px;
+    margin-left: 0px;
+    color: #ffffff;
+  }
+
+  .fomulário-email {
+    width: 100%; /* Define a largura máxima para 100% */
+  }
+
+  .custom-input {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens flexíveis quebrem para a próxima linha */
+    gap: 20px;
+  }
+
+  .custom-input input {
+    min-width: 0;
+    height: 54px;
+    border: none;
+    border-radius: 0;
+    margin-right: 20px; /* Adiciona um espaçamento entre os inputs */
+  }
+
+  .custom-input input:last-child {
+    width: 350px;
+    margin-right: 0; /* Remove o espaçamento à direita do último input */
+  }
+
+  .custom-input input::placeholder {
+    padding-left: 10px;
+    margin: 0;
+    color: #661;
+  }
+
+  .custom-input button {
+    /* Você pode adicionar estilos adicionais para o botão se necessário */
+  }
+
+  .custom-button {
+    background-color: black;
+    border: none;
+    color: #ffffff;
+    border-radius: 0%;
+    width: 150px;
+    height: 54px;
+    font-weight: bold;
+  }
+
+  .custom-button:hover {
+    background-color: #C0C0C0;
+    color: #ffffff;
+  }
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
+

@@ -1,0 +1,80 @@
+
+
+.footer-component{
+  background-color: #000000;
+  z-index: 1;
+  margin-top: 0px;
+}
+.footer-a{
+  background-color: #000000;
+}
+
+.footer-b{
+  background-color: #000000;
+
+}
+
+.footer-c{
+  background-color: #151515;
+}
+.titulo-footer{
+  text-align: center;
+  align-items: center;
+  color: rgb(0, 157, 255);
+  height: 100px;
+}
+#quadro-media-social{
+
+}
+#quadro-links{
+
+}
+
+
+
+
+.link-title-footer{
+  color: #ffffff;
+}
+
+.link-text-footer{
+  color: #BABABA;
+  font-family: 'Hedvig Letters Serif', serif;
+}
+
+#links-A{
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+#links-A:hover{
+  color: rgb(0, 234, 255);
+}
+
+#facebook-icon-footer{
+
+}
+#instagram-icon-footer{
+color: #bc1888;
+}
+#youtube-icon-footer{
+  color: #c4302b;
+}
+
+#twitter-icon-footer{
+  color: #00acee;
+}
+
+#email-icon-footer{
+  color: #c0c0c0;
+
+}
+
+
+.copyright-a{
+  font-size: 12px;
+}
+
+.link-tiago-lima-footer {
+  text-decoration: none;
+}

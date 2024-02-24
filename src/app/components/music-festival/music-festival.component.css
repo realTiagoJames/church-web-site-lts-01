@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;400;500;600;700&family=Afacad:ital,wght@0,400;1,700&family=Forum&family=Hedvig+Letters+Serif:opsz@12..24&family=Lora&display=swap');
+
+
+/* breakpoint de (max-width: 425px) */
+
+body{
+  height: 610px;
+  background-color: black;
+}
+.container{
+ padding-top: 60px;
+ position: relative;
+}
+
+.sub-cont{
+  margin-left: 10px;
+}
+
+h1{
+ color: white;
+ z-index: 2;
+}
+
+h2{
+  color: white;
+   margin-top: 120px;
+   font-family: 'Advent Pro', sans-serif 100;
+   font-weight: 100;
+   font-size: 38px;
+   z-index: 2;
+   position: absolute;
+   max-width: 100%; /* Defina a largura máxima como 100% para ocupar toda a largura do container */
+   text-align: start; /* Texto justificado */
+}
+
+
+.btn{
+  width: 210px;
+  height: 50px;
+  padding-top: 11px;
+  margin-left: 0px;
+  margin-top: 100px;
+  cursor: pointer;
+  color: white;
+  border-color: white;
+  z-index: 2;
+  position: absolute;
+  top: 400px;
+}
+
+.btn:hover{
+ color: aqua;
+}
+
+img{
+ height: 215px;
+ width: auto;
+ position: absolute;
+ top: 200px;
+ z-index: 0;
+ opacity: 0.6;
+ margin-left: 5%;
+}
+
+
+
+@media (min-width: 426px) and (max-width: 575.98px){
+
+  body{
+    height: 610px;
+    background-color: black;
+  }
+  .container{
+   padding-top: 60px;
+   position: relative;
+  }
+
+  .sub-cont{
+    margin-left: 10px;
+  }
+
+  h1{
+   color: white;
+   z-index: 2;
+  }
+
+  h2{
+    color: white;
+     margin-top: 120px;
+     font-family: 'Advent Pro', sans-serif 100;
+     font-weight: 100;
+     font-size: 38px;
+     z-index: 2;
+     position: absolute;
+     max-width: 360px; /* Defina a largura máxima como 100% para ocupar toda a largura do container */
+     text-align: start; /* Texto justificado */
+
+  }
+
+
+  .btn{
+    width: 210px;
+    height: 50px;
+    padding-top: 11px;
+    margin-left: 0px;
+    margin-top: 100px;
+    cursor: pointer;
+    color: white;
+    border-color: white;
+    z-index: 2;
+    position: absolute;
+    top: 400px;
+  }
+
+  .btn:hover{
+   color: aqua;
+  }
+
+  img{
+   height: 280px;
+   width: auto;
+   position: absolute;
+   top: 200px;
+   z-index: 0;
+   opacity: 0.6;
+   margin-left: 8%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+
+  body{
+    height: 700px;
+    background-color: black;
+  }
+  .container{
+   padding-top: 60px;
+   position: relative;
+  }
+
+  .sub-cont{
+    margin-left: 10px;
+  }
+
+  h1{
+   color: white;
+   z-index: 2;
+  }
+
+  h2{
+    color: white;
+     font-family: 'Advent Pro', sans-serif 100;
+     font-weight: 100;
+     font-size: 68px;
+     z-index: 2;
+     position: absolute;
+     top: 90px;
+     max-width: 470px; /* Defina a largura máxima como 100% para ocupar toda a largura do container */
+     text-align: start; /* Texto justificado */
+     letter-spacing: -2px; /* Ajuste o valor conforme necessário para diminuir o espaço entre letras */
+     word-spacing: -2px;
+  }
+
+
+  .btn{
+    width: 230px;
+    font-weight: 500;
+    height: 50px;
+    padding-top: 11px;
+    margin-left: 0px;
+    margin-top: 100px;
+    cursor: pointer;
+    color: black;
+    border-color: white;
+    z-index: 2;
+    position: absolute;
+    top: 490px;
+    background-color: white;
+  }
+
+  .btn:hover{
+   color: aqua;
+  }
+
+  img{
+   height: 360px;
+   width: auto;
+   position: absolute;
+   top: 180px;
+   z-index: 0;
+   opacity: 0.6;
+   margin-left: 5%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  body{
+    height: 900px;
+    background-color: black;
+  }
+  .container{
+   padding-top: 110px;
+   position: relative;
+  }
+
+  .sub-cont{
+    margin-left: 10px;
+  }
+
+  h1{
+   color: white;
+   z-index: 2;
+  }
+
+  h2{
+    color: white;
+     font-family: 'Advent Pro', sans-serif 100;
+     font-weight: 100;
+     font-size: 90px;
+     z-index: 2;
+     position: absolute;
+     top: 150px;
+     max-width: 680px; /* Defina a largura máxima como 100% para ocupar toda a largura do container */
+     text-align: start; /* Texto justificado */
+     letter-spacing: -2px; /* Ajuste o valor conforme necessário para diminuir o espaço entre letras */
+     word-spacing: -2px;
+  }
+
+
+  .btn{
+    width: 230px;
+    font-weight: 500;
+    height: 50px;
+    padding-top: 11px;
+    margin-left: 0px;
+    margin-top: 100px;
+    cursor: pointer;
+    color: black;
+    border-color: white;
+    z-index: 2;
+    position: absolute;
+    top: 650px;
+    background-color: white;
+  }
+
+  .btn:hover{
+   color: aqua;
+  }
+
+  img{
+   height: 500px;
+   width: auto;
+   position: absolute;
+   top: 220px;
+   z-index: 0;
+   opacity: 0.6;
+   margin-left: 5%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  body{
+    height: 900px;
+    background-color: black;
+  }
+  .container{
+   padding-top: 110px;
+   position: relative;
+  }
+
+  .sub-cont{
+    margin-left: 30px;
+  }
+
+  h1{
+   color: white;
+   z-index: 2;
+  }
+
+  h2{
+    color: white;
+     font-family: 'Advent Pro', sans-serif 100;
+     font-weight: 100;
+     font-size: 90px;
+     z-index: 2;
+     position: absolute;
+     top: 150px;
+     max-width: 850px; /* Defina a largura máxima como 100% para ocupar toda a largura do container */
+     text-align: start; /* Texto justificado */
+     letter-spacing: -2px; /* Ajuste o valor conforme necessário para diminuir o espaço entre letras */
+     word-spacing: -2px;
+  }
+
+
+  .btn{
+    width: 230px;
+    font-weight: 500;
+    height: 50px;
+    padding-top: 11px;
+    margin-left: 0px;
+    margin-top: 100px;
+    cursor: pointer;
+    color: black;
+    border-color: white;
+    z-index: 2;
+    position: absolute;
+    top: 650px;
+    background-color: white;
+  }
+
+  .btn:hover{
+   color: aqua;
+  }
+
+  img{
+   height: 620px;
+   width: auto;
+   position: absolute;
+   top: 220px;
+   z-index: 0;
+   opacity: 0.6;
+   margin-left: 5%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px)  {
+
+  body{
+    height: 900px;
+    background-color: black;
+  }
+  .container{
+   padding-top: 110px;
+   position: relative;
+  }
+
+  .sub-cont{
+    margin-left: 30px;
+  }
+
+  h1{
+   color: white;
+   z-index: 2;
+  }
+
+  h2{
+    color: white;
+     font-family: 'Advent Pro', sans-serif 100;
+     font-weight: 100;
+     font-size: 90px;
+     z-index: 2;
+     position: absolute;
+     top: 150px;
+     max-width: 950px; /* Defina a largura máxima como 100% para ocupar toda a largura do container */
+     text-align: start; /* Texto justificado */
+     letter-spacing: -2px; /* Ajuste o valor conforme necessário para diminuir o espaço entre letras */
+     word-spacing: -2px;
+  }
+
+
+  .btn{
+    width: 230px;
+    font-weight: 500;
+    height: 50px;
+    padding-top: 11px;
+    margin-left: 0px;
+    margin-top: 100px;
+    cursor: pointer;
+    color: black;
+    border-color: white;
+    z-index: 2;
+    position: absolute;
+    top: 650px;
+    background-color: white;
+  }
+
+  .btn:hover{
+   color: aqua;
+  }
+
+  img{
+   height: 640px;
+   width: auto;
+   position: absolute;
+   top: 220px;
+   z-index: 0;
+   opacity: 0.6;
+   margin-left: 13%;
+  }
+
+}
+@media (min-width: 1400px) {
+  body{
+    height: 900px;
+    background-color: black;
+  }
+  .container{
+   padding-top: 110px;
+   position: relative;
+  }
+
+  .sub-cont{
+    margin-left: 0px;
+
+  }
+
+  h1{
+   color: white;
+   z-index: 2;
+  }
+
+  h2{
+    color: white;
+     font-family: 'Advent Pro', sans-serif 100;
+     font-weight: 100;
+     font-size: 90px;
+     z-index: 2;
+     position: absolute;
+     top: 150px;
+     max-width: 1150px; /* Defina a largura máxima como 100% para ocupar toda a largura do container */
+     text-align: start; /* Texto justificado */
+     letter-spacing: 3px; /* Ajuste o valor conforme necessário para diminuir o espaço entre letras */
+     word-spacing: 0px;
+  }
+
+
+  .btn{
+    width: 230px;
+    font-weight: 500;
+    height: 50px;
+    padding-top: 11px;
+    margin-left: 0px;
+    margin-top: 100px;
+    cursor: pointer;
+    color: black;
+    border-color: white;
+    z-index: 2;
+    position: absolute;
+    top: 500px;
+    background-color: white;
+  }
+
+  .btn:hover{
+   color: aqua;
+  }
+
+  img{
+   height: 550px;
+   width: auto;
+   position: absolute;
+   top: 140px;
+   z-index: 0;
+   opacity: 0.6;
+   margin-left: 20%;
+  }
+
+}
