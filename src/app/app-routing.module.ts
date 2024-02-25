@@ -5,9 +5,7 @@ import { BlogComponent } from './views/blog/blog.component';
 import { BlogArticle1Component } from './views/blog-article1/blog-article1.component';
 import { MinisteriosComponent } from './views/ministerios/ministerios.component';
 import { FaleConoscoComponent } from './views/fale-conosco/fale-conosco.component';
-import { PageLayout1Component } from './views/page-layout1/page-layout1.component';
 import { NoticiasComponent } from './views/noticias/noticias.component';
-import { FooterComponent } from './components/templates/footer/footer.component';
 import { UniversidadeComponent } from './views/universidade/universidade.component';
 import { JesusComponent } from './views/jesus/jesus.component';
 

@@ -6,3 +6,6 @@
 @media (min-width: 1200px) and (max-width: 1399.98px)  {}
 @media (min-width: 1400px) { }
 
+/* background-color: #4F4F4F	; */
+
+/* background-image: url(src\assets\team\team_01.jpg); */
