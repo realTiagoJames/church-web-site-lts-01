@@ -11,4 +11,6 @@
 /* background-image: url(src\assets\team\team_01.jpg); */
 
 
+background-image: linear-gradient(90deg, rgba(0,117,174,1) 0%, rgba(6,68,130,1) 100%);
+
 A referência de paralax melhor construída do curso está no components/element-paralax-b

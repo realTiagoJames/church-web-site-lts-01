@@ -8,6 +8,7 @@ import { FaleConoscoComponent } from './views/fale-conosco/fale-conosco.componen
 import { NoticiasComponent } from './views/noticias/noticias.component';
 import { UniversidadeComponent } from './views/universidade/universidade.component';
 import { JesusComponent } from './views/jesus/jesus.component';
+import { VisaoComponent } from './views/visao/visao.component';
 
 const routes: Routes = [
 
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'noticias',     component: NoticiasComponent  },
   { path: 'universidade',     component: UniversidadeComponent  },
   { path: 'jesus',     component: JesusComponent  },
+  { path: 'visão',     component: VisaoComponent  },
 
 ];
 
