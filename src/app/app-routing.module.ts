@@ -9,6 +9,7 @@ import { PageLayout1Component } from './views/page-layout1/page-layout1.componen
 import { NoticiasComponent } from './views/noticias/noticias.component';
 import { FooterComponent } from './components/templates/footer/footer.component';
 import { UniversidadeComponent } from './views/universidade/universidade.component';
+import { JesusComponent } from './views/jesus/jesus.component';
 
 const routes: Routes = [
 
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path:'fale-conosco', component: FaleConoscoComponent  },
   { path: 'noticias',     component: NoticiasComponent  },
   { path: 'universidade',     component: UniversidadeComponent  },
+  { path: 'jesus',     component: JesusComponent  },
 
 ];
 
