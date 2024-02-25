@@ -26,6 +26,7 @@ import { NewsroomSection1Component } from './components/newsroom-section1/newsro
 import { NewsroomSection2Component } from './components/newsroom-section2/newsroom-section2.component';
 import { UniversidadeComponent } from './views/universidade/universidade.component';
 import { JesusComponent } from './views/jesus/jesus.component';
+import { VisaoComponent } from './views/visao/visao.component';
 
 
 @NgModule({
@@ -53,7 +54,8 @@ import { JesusComponent } from './views/jesus/jesus.component';
     NewsroomSection1Component,
     NewsroomSection2Component,
     UniversidadeComponent,
-    JesusComponent
+    JesusComponent,
+    VisaoComponent
 
   ],
   imports: [
