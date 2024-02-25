@@ -9,3 +9,6 @@
 /* background-color: #4F4F4F	; */
 
 /* background-image: url(src\assets\team\team_01.jpg); */
+
+
+A referência de paralax melhor construída do curso está no components/element-paralax-b
